@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -12,28 +11,260 @@
     android:gravity="center"
     tools:context=".MainActivity"
     >
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.1"
+    android:layout_margin="10dp"
+    >
     <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo"
+        >
 
-         android:layout_height="wrap_content"
-         android:layout_width="wrap_content"
-        android:scaleType="centerInside"
-        android:src="@drawable/musifylogo"
+    </ImageView>
 
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Musify"
-        android:gravity="right"
-        android:layout_marginTop="10dp"
-        android:textSize="60dp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+</RelativeLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_weight="0.025"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/signupp"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/loginn"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/p3"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/pagefour"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_weight="0.025"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/music"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/title"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/editprofile"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/addplaylist"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_weight="0.025"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/uploadmusic"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/record"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/record2"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/stop11"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_weight="0.025"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/record3"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/selectplaylist"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/songtitleasartist"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/son"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_weight="0.025"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/searchmusic"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/listenlater"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/liked"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/likedmusic"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_weight="0.025"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile2"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.025"
+            android:src="@drawable/profile5"
+            >
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
 
 </LinearLayout>
