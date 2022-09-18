@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/i190468/app/src/main/res/drawable/circle.xml" value="0.122" />
         <entry key="..\:/i190468/app/src/main/res/drawable/corners.xml" value="0.125" />
         <entry key="..\:/i190468/app/src/main/res/drawable/cornersyellow.xml" value="0.122" />
         <entry key="..\:/i190468/app/src/main/res/drawable/emptyrect.xml" value="0.122" />
@@ -27,6 +28,7 @@
         <entry key="..\:/i190468/app/src/main/res/layout/activity_twelvescreen.xml" value="0.20416666666666666" />
         <entry key="..\:/i190468/app/src/main/res/layout/activity_twentyonescr.xml" value="0.19010416666666666" />
         <entry key="..\:/i190468/app/src/main/res/layout/activity_twentyscreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/i190468/app/src/main/res/layout/activity_twentythree.xml" value="0.20416666666666666" />
         <entry key="..\:/i190468/app/src/main/res/layout/activity_twentytwo.xml" value="0.20416666666666666" />
       </map>
     </option>
