@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sixthscreen"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="#000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.01"
+            android:src="@drawable/threelines"
+            android:layout_marginTop="10dp"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.01"
+            android:src="@drawable/profile5"
+            android:layout_marginTop="10dp"
+
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Playlists"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFF">
+
+        </TextView>
+    </RelativeLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playlist5"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playlist5"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playlist5"
+            >
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.016"
+            android:text="Playlist 1"
+            android:textStyle="normal"
+            android:textColor="#e0af1f"
+            android:textSize="20dp"
+            android:layout_marginLeft="35dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.016"
+            android:text="Playlist 2"
+            android:textStyle="normal"
+            android:textColor="#e0af1f"
+            android:textSize="20dp"
+            android:layout_marginLeft="35dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.016"
+            android:text="Playlist 3"
+            android:textStyle="normal"
+            android:textColor="#e0af1f"
+            android:textSize="20dp"
+            android:layout_marginLeft="35dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artists"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFF">
+
+        </TextView>
+    </RelativeLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/artist5"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/artist5"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/artist5"
+            >
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.016"
+            android:text="Artist 1"
+            android:textStyle="normal"
+            android:textColor="#e0af1f"
+            android:textSize="20dp"
+            android:layout_marginLeft="35dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.016"
+            android:text="Artist 2"
+            android:textStyle="normal"
+            android:textColor="#e0af1f"
+            android:textSize="20dp"
+            android:layout_marginLeft="35dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.016"
+            android:text="Artist 3"
+            android:textStyle="normal"
+            android:textColor="#e0af1f"
+            android:textSize="20dp"
+            android:layout_marginLeft="35dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/emptyrect"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.025"
+            android:text="Song Name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textColor="#e0af1f"
+            >
+
+        </TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/fastbackwardfive"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/playonefive"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/fastforwardfive"
+            >
+
+        </ImageView>
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:background="#A9A9">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/heart5"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/plus5"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search5"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/clock5"
+            >
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
