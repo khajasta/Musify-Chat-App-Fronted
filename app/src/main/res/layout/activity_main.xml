@@ -12,16 +12,19 @@
     tools:context=".MainActivity"
     >
     <RelativeLayout
+
     android:layout_width="match_parent"
     android:layout_height="0dp"
     android:layout_weight="0.1"
     android:layout_margin="10dp"
     >
     <ImageView
+        android:id="@+id/bt1"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_centerInParent="true"
         android:src="@drawable/logo"
+
         >
 
     </ImageView>
@@ -35,6 +38,7 @@
         android:layout_margin="10dp"
         >
         <ImageView
+            android:id="@+id/bt2"
             android:layout_weight="0.025"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -44,6 +48,7 @@
         </ImageView>
 
         <ImageView
+            android:id="@+id/bt3"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -52,6 +57,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt4"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -60,6 +66,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt5"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_weight="0.025"
@@ -77,6 +84,7 @@
         android:layout_margin="10dp"
         >
         <ImageView
+            android:id="@+id/bt6"
             android:layout_weight="0.025"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -86,6 +94,7 @@
         </ImageView>
 
         <ImageView
+            android:id="@+id/bt7"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -94,6 +103,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt8"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -102,6 +112,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt9"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_weight="0.025"
@@ -119,6 +130,7 @@
         android:layout_margin="10dp"
         >
         <ImageView
+            android:id="@+id/bt10"
             android:layout_weight="0.025"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -128,6 +140,7 @@
         </ImageView>
 
         <ImageView
+            android:id="@+id/bt11"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -136,6 +149,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt12"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -144,6 +158,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt13"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_weight="0.025"
@@ -161,6 +176,7 @@
         android:layout_margin="10dp"
         >
         <ImageView
+            android:id="@+id/bt14"
             android:layout_weight="0.025"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -170,6 +186,7 @@
         </ImageView>
 
         <ImageView
+            android:id="@+id/bt15"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -178,6 +195,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt16"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -186,6 +204,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt17"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_weight="0.025"
@@ -203,6 +222,7 @@
         android:layout_margin="10dp"
         >
         <ImageView
+            android:id="@+id/bt18"
             android:layout_weight="0.025"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -212,6 +232,7 @@
         </ImageView>
 
         <ImageView
+            android:id="@+id/bt19"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -220,6 +241,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt20"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"
@@ -228,6 +250,7 @@
 
         </ImageView>
         <ImageView
+            android:id="@+id/bt21"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_weight="0.025"
@@ -245,6 +268,7 @@
         android:layout_margin="10dp"
         >
         <ImageView
+            android:id="@+id/bt22"
             android:layout_weight="0.025"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -254,6 +278,7 @@
         </ImageView>
 
         <ImageView
+            android:id="@+id/bt23"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_weight="0.025"

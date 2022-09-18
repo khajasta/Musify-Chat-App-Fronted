@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ninthscreen"
+    android:background="#000">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="0.1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile5"
+                    android:layout_marginLeft="250dp"
+                    ></ImageView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_weight="0.2"
+
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playlist5"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="150dp"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Playlist 3"
+                    android:textColor="#FFF"
+                    android:layout_marginTop="360dp"
+                    android:layout_marginLeft="300dp"
+                    ></TextView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:layout_weight="0.2"
+
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/despacito8"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="400dp"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Artist 3"
+                    android:textColor="#FFF"
+                    android:layout_marginTop="580dp"
+                    android:layout_marginLeft="300dp"
+                    ></TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="670dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.024"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/heart5"
+                        android:background="#A9A9"
+                        >
+
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.024"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/plus5"
+                        android:background="#A9A9"
+                        >
+
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.024"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/search5"
+                        android:background="#A9A9"
+                        >
+
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.024"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/clock5"
+                        android:background="#A9A9"
+                        >
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/golden"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/circle"
+                    ></ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Username"
+                    android:textColor="#FFF"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Email"
+                    android:textColor="#FFF"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Change Password"
+                    android:textColor="#FFF"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                ></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:text="Logout"
+                    android:textColor="#FFF"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+            </LinearLayout>
+        </LinearLayout
+            >
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>
