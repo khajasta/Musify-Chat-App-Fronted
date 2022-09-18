@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tenthscreen"
+    android:weightSum="1"
+    android:background="#000"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.01"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back18"
+            ></ImageView>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Record"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+
+
+    </LinearLayout
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/despacito8"
+            ></ImageView>>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.04"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2:45"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#e0af1f"
+            android:layout_marginLeft="190dp"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stop11"
+            ></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.46"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/heart5"
+            android:background="#A9A9"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/plus5"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search5"
+            android:background="#A9A9"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/clock5"
+            android:background="#A9A9"
+            >
+
+        </ImageView>
+
+
+    </LinearLayout>
+</LinearLayout>
