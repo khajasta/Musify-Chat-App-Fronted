@@ -14,6 +14,9 @@
         android:theme="@style/Theme.I190468"
         tools:targetApi="31">
         <activity
+            android:name=".nineteenscreen"
+            android:exported="false" />
+        <activity
             android:name=".eighteenscreen"
             android:exported="false" />
         <activity
