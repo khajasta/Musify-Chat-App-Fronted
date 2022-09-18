@@ -132,28 +132,32 @@
             android:layout_gravity="left"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/golden"
+            android:background="#996515"
             android:orientation="vertical"
+            android:layout_marginTop="10dp"
             >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_marginTop="20dp"
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:src="@drawable/circle"
+                    android:layout_height="200dp"
+                    android:src="@drawable/whitecircle"
                     ></ImageView>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
                 >
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:text="Username"
-                    android:textColor="#FFF"
+                    android:textColor="#e0af1f"
                     android:textSize="30dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="100dp"
@@ -161,48 +165,57 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="100dp"
                 >
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:text="Email"
-                    android:textColor="#FFF"
-                    android:textSize="30dp"
-                    android:layout_marginTop="10dp"
+                    android:text="Edit Profile"
+                    android:textColor="#e0af1f"
+                    android:textSize="20dp"
                     ></TextView>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="100dp"
                 >
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:text="Change Password"
-                    android:textColor="#FFF"
-                    android:textSize="30dp"
+                    android:textColor="#e0af1f"
+                    android:textSize="20dp"
                     android:layout_marginTop="10dp"
                     ></TextView>
+            </LinearLayout
+                >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="0.1"
-                ></LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="600dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
                 >
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="600dp"
                     android:text="Logout"
-                    android:textColor="#FFF"
-                    android:textSize="30dp"
+                    android:textColor="#e0af1f"
+                    android:textSize="20dp"
                     android:layout_marginTop="10dp"
                     ></TextView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logout8"
+
+                    ></ImageView>
             </LinearLayout>
+
         </LinearLayout
             >
 
