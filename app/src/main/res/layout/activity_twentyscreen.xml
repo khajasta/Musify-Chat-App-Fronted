@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tenthscreen"
+    android:weightSum="1"
+    android:background="#000"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.01"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back18"
+            ></ImageView>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Listen Later"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+
+
+    </LinearLayout
+
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:background="@drawable/emptyrect"
+        >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/golden"
+            android:text="Playlist"
+            android:textColor="#e0af1f"
+            android:gravity="center"
+            android:textSize="20dp"
+            ></TextView>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+
+            android:background="@drawable/cornersyellow"
+            android:text="Music"
+            android:textColor="#996515"
+            android:gravity="center"
+            android:textSize="20dp"
+            ></TextView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        ></LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/despacito8"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Song Name"
+            android:textColor="#FFF"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textColor="#e0af1f"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3:01"
+            android:textColor="#FFF"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dots16"
+            android:layout_marginLeft="320dp"
+            ></ImageView>
+    </RelativeLayout
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/despacito8"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Song Name"
+            android:textColor="#FFF"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textColor="#e0af1f"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0:24"
+            android:textColor="#FFF"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dots16"
+            android:layout_marginLeft="320dp"
+            ></ImageView>
+    </RelativeLayout
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.47"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/heart5"
+            android:background="#A9A9"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/plus5"
+            android:background="#A9A9"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search5"
+            android:background="#A9A9"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.024"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/clock5"
+            >
+
+        </ImageView>
+
+
+    </LinearLayout>
+</LinearLayout>
